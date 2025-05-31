@@ -5,13 +5,17 @@ const Header = () => {
   return (
     <div className="header-div">
       <div className="title">
-        <p className="logo-img">
+        <div className="logo-img">
           <a href="/"></a>
-        </p>
+        </div>
       </div>
       <div className="nav-container">
         <ul>
           <HeaderSpace hrefLink="/" spanName="Home" />
+          <HeaderSpace hrefLink="/About" spanName="About" />
+          <HeaderSpace hrefLink="/Services" spanName="Services" />
+          <HeaderSpace hrefLink="/Blog" spanName="Blog" />
+          <HeaderSpace hrefLink="/Contact" spanName="Contact" />
         </ul>
       </div>
     </div>

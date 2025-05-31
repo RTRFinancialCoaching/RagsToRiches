@@ -2,7 +2,7 @@ import React from "react";
 
 const HeaderSpace = ({ hrefLink, spanName }) => {
   return (
-    <li>
+    <li className="header-space">
       <a href={hrefLink}>
         <span>{spanName}</span>
       </a>
