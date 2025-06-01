@@ -11,7 +11,7 @@
   background-attachment: fixed;
   background-position: left top;
   background-color: #000000b9;
-  background-image: url(English.jpg);
+  background-image: url(/English.jpg);
   background-repeat: round;
   background-size: cover;
   width: 99.1vw;
@@ -119,7 +119,7 @@
   transition: 0.25s;
 }
 .logo-img > a:hover {
-  background-image: url(RTRSideK.png);
+  background-image: url(/RTRSideK.png);
   filter: drop-shadow(2px 2px 2px #000000);
 }
 
