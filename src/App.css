@@ -3,7 +3,24 @@
   justify-content: space-between;
   flex-direction: row;
   height: 100px;
-  background-color: #00000011;
+  background-color: #0000004d;
+}
+
+.body {
+  position: absolute;
+  background-attachment: fixed;
+  background-position: left top;
+  background-color: #000000b9;
+  background-image: url(English.jpg);
+  background-repeat: round;
+  background-size: cover;
+  width: 99.1vw;
+  height: 150vh;
+}
+
+.body-tint {
+  background-color: rgba(26, 26, 26, 0.171);
+  background-blend-mode: multiply;
 }
 
 .header-space {
@@ -22,6 +39,52 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.main-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-body * {
+  margin: 0 10vw;
+}
+
+.main-body h1 {
+  font-size: 3em;
+}
+
+.main-body p {
+  font-size: 24px !important;
+  line-height: 1.5em !important;
+  font-weight: 50;
+  font-family: "Avenir Next LT Pro", sans-serif;
+}
+
+.app-content {
+  margin: 9vw 0;
+  font-size: larger;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  font-family: "CircularStd", sans-serif;
+}
+
+.app-white {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75vw;
+  height: 10vh;
+}
+
+.app-white {
+  font-size: 1.5em;
+  color: #1b1d2b;
 }
 
 .title {
@@ -53,11 +116,11 @@
   overflow: hidden;
   white-space: nowrap;
   background-image: url(RTRSide.png);
-  transition: 0.1s;
+  transition: 0.25s;
 }
 .logo-img > a:hover {
   background-image: url(RTRSideK.png);
-  filter: drop-shadow(5px, 5px, 5px);
+  filter: drop-shadow(2px 2px 2px #000000);
 }
 
 ul {

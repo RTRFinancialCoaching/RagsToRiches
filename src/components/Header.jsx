@@ -11,11 +11,11 @@ const Header = () => {
       </div>
       <div className="nav-container">
         <ul>
-          <HeaderSpace hrefLink="/" spanName="Home" />
-          <HeaderSpace hrefLink="/About" spanName="About" />
-          <HeaderSpace hrefLink="/Services" spanName="Services" />
-          <HeaderSpace hrefLink="/Blog" spanName="Blog" />
-          <HeaderSpace hrefLink="/Contact" spanName="Contact" />
+          <HeaderSpace hrefLink="/" spanName="HOME" />
+          <HeaderSpace hrefLink="/About" spanName="ABOUT" />
+          <HeaderSpace hrefLink="/Services" spanName="SERVICES" />
+          <HeaderSpace hrefLink="/Blog" spanName="BLOG" />
+          <HeaderSpace hrefLink="/Contact" spanName="CONTACT" />
         </ul>
       </div>
     </div>
