@@ -115,7 +115,7 @@
   text-indent: 100%;
   overflow: hidden;
   white-space: nowrap;
-  background-image: url(RTRSide.png);
+  background-image: url(/RTRSide.png);
   transition: 0.25s;
 }
 .logo-img > a:hover {
