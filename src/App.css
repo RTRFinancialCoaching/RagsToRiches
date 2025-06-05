@@ -7,7 +7,7 @@
 }
 
 .body {
-  position: absolute;
+  position: relative;
   background-attachment: fixed;
   background-position: left top;
   background-color: #000000b9;
@@ -17,14 +17,31 @@
   width: 99.1vw;
   height: 200vh;
 }
-.body-shade {
-  background-color: rgba(26, 26, 26, 0.171);
-  background-blend-mode: multiply;
-  height: 100vh;
+
+.body-lure {
+  position: relative;
+  background-attachment: fixed;
+  background-position: left top;
+  background-color: #000000b9;
+  background-image: url(/English-2.jpg);
+  background-repeat: round;
+  background-size: cover;
+  color: white;
+  width: 99.1vw;
+  height: 200vh;
+}
+
+.app-lure {
+  padding-top: 8vw;
 }
 
 .body-tint {
   background-color: rgba(26, 26, 26, 0.171);
+  background-blend-mode: multiply;
+}
+
+.body-shade {
+  background-color: rgba(148, 119, 66, 0.637);
   background-blend-mode: multiply;
 }
 
