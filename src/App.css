@@ -18,6 +18,13 @@
   height: 200vh;
 }
 
+.main-body p {
+  font-size: 24px !important;
+  line-height: 1.5em !important;
+  font-weight: 50;
+  font-family: "Avenir Next LT Pro", sans-serif;
+}
+
 .body-lure {
   position: relative;
   background-attachment: fixed;
@@ -32,7 +39,69 @@
 }
 
 .app-lure {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-top: 8vw;
+  font-size: 1.25em;
+}
+
+.app-lure-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-lure hr {
+  border-width: 1px 0 0 0px;
+  background-color: transparent;
+  margin: 1px 0;
+  height: 2px;
+  width: 2vw;
+  border-color: rgb(255, 255, 255) !important;
+}
+
+.app-lure-cont {
+  width: 75vw;
+  justify-content: center;
+  display: flex;
+}
+
+.app-lure-arcl {
+  margin: 0 3vw;
+  width: 25vw;
+}
+
+.app-lure p {
+  font-size: 0.85em !important;
+}
+
+.app-lure h3 {
+  margin: 0 1vw;
+}
+
+.lure-hr-top {
+  width: 3vw !important;
+}
+
+.app-lure-left {
+  align-items: flex-end;
+}
+
+.app-lure-hr {
+  height: 15px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.app-white-hr h3 {
+  font-family: "Axis", sans-serif;
+  font-weight: 800;
+  font-size: 0.8em;
+  word-spacing: 0.5vw;
+  margin: 0 1vw;
 }
 
 .body-tint {
@@ -41,7 +110,7 @@
 }
 
 .body-shade {
-  background-color: rgba(148, 119, 66, 0.637);
+  background-color: rgba(50, 54, 63, 0.637);
   background-blend-mode: multiply;
 }
 
@@ -77,13 +146,6 @@
 
 .main-body h1 {
   font-size: 3em;
-}
-
-.main-body p {
-  font-size: 24px !important;
-  line-height: 1.5em !important;
-  font-weight: 50;
-  font-family: "Avenir Next LT Pro", sans-serif;
 }
 
 .app-content {
