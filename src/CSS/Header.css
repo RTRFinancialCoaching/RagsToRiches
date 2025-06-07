@@ -1,0 +1,119 @@
+.header-div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 100px;
+  background-color: #0000000e;
+}
+.logo-img {
+  padding-top: 0;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.logo-img > a {
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain;
+  float: left;
+  display: block;
+  width: 20vw;
+  height: 100%;
+  max-height: 95%;
+  transform: scale(1);
+  text-indent: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  background-image: url(/RTRSide.png);
+  transition: 0.25s;
+}
+.logo-img > a:hover {
+  background-image: url(/RTRSideK.png);
+  filter: drop-shadow(2px 2px 2px #000000);
+}
+
+.page-selected {
+  display: block;
+}
+
+.header-space {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: fit-content;
+}
+
+.header-space > a {
+  padding: 0 1vw;
+}
+
+.header-space * {
+  z-index: 10;
+}
+
+.header-space-top {
+  display: block;
+  height: 5%;
+}
+
+.header-space-bottom {
+  width: 0;
+  transition: all 0.5s;
+}
+
+.header-space:hover > .header-space-back,
+.page-selected > .header-space-back {
+  background-color: #00000050;
+  transition:
+    background-color 1s,
+    all 0.5s;
+  width: 100.05%;
+  height: 100.05%;
+}
+
+.header-space-back {
+  transition:
+    background-color 1s,
+    all 0.5s;
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0%;
+  height: 0%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.page-selected > .header-space-bottom,
+.header-space:hover > .header-space-bottom {
+  display: block;
+  background-color: #00000059;
+  height: 5%;
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nav-container a {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  width: fit-content;
+  margin: 5px 30px 5px 30px;
+}

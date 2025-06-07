@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import HeaderSpace from "./HeaderSpace";
 
-const Header = () => {
+const Header = ({ pageNum = 0 }) => {
+  useEffect(() => {
+    const headerSpaces = document.getElementById("HeaderSpaces");
+    const page = headerSpaces.children.item(pageNum);
+    page.classList.add("page-selected");
+  }, []);
+
   return (
     <div className="header-div">
       <div className="title">
@@ -10,7 +16,7 @@ const Header = () => {
         </div>
       </div>
       <div className="nav-container">
-        <ul>
+        <ul id="HeaderSpaces">
           <HeaderSpace hrefLink="/" spanName="HOME" />
           <HeaderSpace hrefLink="/About" spanName="ABOUT" />
           <HeaderSpace hrefLink="/Services" spanName="SERVICES" />

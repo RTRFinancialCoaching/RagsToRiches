@@ -1,0 +1,72 @@
+.body-lure {
+  position: relative;
+  background-attachment: fixed;
+  background-position: left top;
+  background-color: #000000b9;
+  background-image: url(/English-2.jpg);
+  background-repeat: round;
+  background-size: cover;
+  color: white;
+  width: 99.1vw;
+  height: 100vh;
+}
+.app-lure {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 8vw;
+  font-size: 1.25em;
+}
+
+.app-lure-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-lure hr {
+  border-width: 1px 0 0 0px;
+  background-color: transparent;
+  margin: 1px 0;
+  height: 2px;
+  width: 2vw;
+  border-color: rgb(255, 255, 255) !important;
+}
+
+.app-lure-cont {
+  width: 75vw;
+  justify-content: center;
+  display: flex;
+}
+
+.app-lure-arcl {
+  margin: 0 3vw;
+  width: 25vw;
+}
+
+.app-lure p {
+  font-size: 0.85em !important;
+}
+.app-lure h3 {
+  margin: 0 1vw;
+}
+
+.lure-hr-top {
+  width: 3vw !important;
+}
+
+.app-lure-left {
+  align-items: flex-end;
+}
+
+.app-lure-hr {
+  height: 15px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.body-shade {
+  background-color: rgba(46, 48, 53, 0.795);
+  background-blend-mode: multiply;
+}
