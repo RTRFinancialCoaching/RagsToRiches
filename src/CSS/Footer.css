@@ -1,0 +1,30 @@
+.body-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5vw;
+}
+
+.body-footer-main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.body-footer h1 {
+  margin: 0;
+  font-size: 3em;
+  color: #101d38;
+}
+
+.body-footer p {
+  color: #6d6d6d;
+}
+
+.footer-bar {
+  border: 1px solid #acacac;
+}

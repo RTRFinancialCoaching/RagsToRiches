@@ -1,12 +1,189 @@
 .body-feeling {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  background-attachment: fixed;
+  color: white;
+  width: 99.1vw;
+  height: 150vh;
+}
+
+.feeling-back {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  box-sizing: border-box;
+  transition: box-shadow 0.5s;
+  overflow: hidden;
+  box-shadow: inset 2px 2px 2px #000000;
+  filter: brightness(80%);
   background-position: left top;
   background-color: #000000b9;
   background-image: url(/English-3.jpg);
   background-repeat: round;
   background-size: cover;
-  color: white;
-  width: 99.1vw;
-  height: 100vh;
+  z-index: -1;
+}
+
+.feeling-shade {
+  background-color: rgba(0, 56, 73, 0.397);
+  background-blend-mode: multiply;
+}
+
+.app-feeling-main {
+  border-top: solid 0.5vw transparent;
+  border-image: linear-gradient(to right, rgb(31, 83, 0), rgb(0, 255, 255));
+  border-image-slice: 1;
+  display: flex;
+  padding: 3vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #101d38;
+  background-color: white;
+  width: 45%;
+}
+
+.app-feeling-main img {
+  margin: 0;
+  margin-top: 0.5vw;
+  margin-right: 0.5vw;
+  filter: brightness(300%);
+}
+
+.app-feeling-main > h2 {
+  line-height: 1.2;
+  font-weight: 900;
+  font-size: 1.8em;
+  font-family: "CircularStd", sans-serif;
+}
+
+.app-feeling-main > * {
+  margin: 0.8vw 0;
+}
+
+.app-feeling-main h3 {
+  margin: 0;
+}
+
+.app-feeling-main table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.app-feeling-main td {
+  text-align: left;
+  padding: 0.8vw;
+  border-top: 1px solid;
+  border-color: #dbdbdb;
+  min-height: 2vw;
+}
+
+.app-feeling-left {
+  border-color: inherit;
+  border-left: 1px solid;
+}
+
+.app-feeling-left strong {
+  color: rgb(206, 82, 0);
+}
+
+.app-feeling-middle {
+  width: 2vw;
+}
+
+.app-feeling-right {
+  border-color: inherit;
+  border-right: 1px solid;
+}
+
+.app-feeling-right strong {
+  color: rgb(48, 206, 0);
+}
+
+.feeling-bottom {
+  border-color: inherit;
+  border-bottom: 1px solid;
+}
+.app-feeling-main p {
+  color: #6d6d6d;
+  font-size: 1.1em;
+}
+
+.app-feeling-side {
+  padding: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 40px;
+  color: #101d38 !important;
+  border-bottom: solid 0.5vw transparent;
+  border-image: linear-gradient(to right, rgb(31, 83, 0), rgb(0, 255, 255));
+  border-image-slice: 1;
+  background-color: white;
+  width: 20vw;
+}
+
+.app-feeling-side ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-feeling-side li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: inherit;
+  text-align: left;
+}
+
+.app-feeling-side img {
+  width: 3vw;
+  height: 3vw;
+}
+
+.app-feeling-side hr {
+  border: 0;
+  background-image: url(./icons/dash.svg);
+  background-size: 45px 20px;
+  filter: brightness(5000%);
+  height: 15px;
+  width: 100%;
+}
+
+.app-feeling-side h2 {
+  text-align: left;
+  margin-top: 0;
+  line-height: 1.2;
+  font-weight: 900;
+  font-size: 1.8em;
+  font-family: "CircularStd", sans-serif;
+}
+.app-feeling-side h3 {
+  margin: 0;
+  margin-bottom: 0.2vw;
+  line-height: 1.2;
+  font-weight: 900;
+  font-size: 1em;
+  font-family: "CircularStd", sans-serif;
+}
+
+.feeling-side-div {
+  margin-left: 1vw;
+}
+
+.app-feeling-side p {
+  margin: 0;
+  color: #6d6d6d;
+  font-size: 0.9em;
+  font-weight: 300;
 }
