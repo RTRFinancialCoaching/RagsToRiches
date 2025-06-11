@@ -3,12 +3,12 @@
   background-attachment: fixed;
   background-position: left top;
   background-color: #000000b9;
-  background-image: url(/English-2.jpg);
+  background-image: url(/English-2.1.jpg);
   background-repeat: round;
   background-size: cover;
   color: white;
   width: 99.1vw;
-  height: 100vh;
+  height: 80vh;
 }
 .app-lure {
   width: 50%;
@@ -67,6 +67,6 @@
   flex-direction: column;
 }
 .body-shade {
-  background-color: rgba(46, 48, 53, 0.795);
+  background-color: rgba(46, 48, 53, 0.514);
   background-blend-mode: multiply;
 }

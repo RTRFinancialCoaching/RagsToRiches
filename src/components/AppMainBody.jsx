@@ -31,32 +31,32 @@ const AppMainBody = () => {
               p="Suspendisse in purus maximus, pulvinar nibh nec, egestas nisl. Maecenas eleifend velit vulputate, rutrum orci eu, lacinia erat. Cras id ipsum non dui malesuada convallis non non ipsum."
             />
             <GridBox
-              icon="/icons/business-bag.svg"
+              icon="/icons/business-chart-mag.svg"
               h3="Thats Right"
               classVar="border-left border-right"
               p="Suspendisse in purus maximus, pulvinar nibh nec, egestas nisl. Maecenas eleifend velit vulputate, rutrum orci eu, lacinia erat. Cras id ipsum non dui malesuada convallis non non ipsum."
             />
             <GridBox
-              icon="/icons/business-bag.svg"
+              icon="/icons/business-chart.svg"
               h3="Thats Right"
               p="Suspendisse in purus maximus, pulvinar nibh nec, egestas nisl. Maecenas eleifend velit vulputate, rutrum orci eu, lacinia erat. Cras id ipsum non dui malesuada convallis non non ipsum."
             />
           </div>
           <div className="app-white-row">
             <GridBox
-              icon="/icons/business-bag.svg"
+              icon="/icons/business-color.svg"
               h3="Thats Right"
               classVar="border-top"
               p="Suspendisse in purus maximus, pulvinar nibh nec, egestas nisl. Maecenas eleifend velit vulputate, rutrum orci eu, lacinia erat. Cras id ipsum non dui malesuada convallis non non ipsum."
             />
             <GridBox
-              icon="/icons/business-bag.svg"
+              icon="/icons/business-employee.svg"
               h3="Thats Right"
               classVar="border-left border-right border-top"
               p="Suspendisse in purus maximus, pulvinar nibh nec, egestas nisl. Maecenas eleifend velit vulputate, rutrum orci eu, lacinia erat. Cras id ipsum non dui malesuada convallis non non ipsum."
             />
             <GridBox
-              icon="/icons/business-bag.svg"
+              icon="/icons/business-finance.svg"
               h3="Thats Right"
               classVar="border-top"
               p="Suspendisse in purus maximus, pulvinar nibh nec, egestas nisl. Maecenas eleifend velit vulputate, rutrum orci eu, lacinia erat. Cras id ipsum non dui malesuada convallis non non ipsum."
