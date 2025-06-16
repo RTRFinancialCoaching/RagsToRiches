@@ -1,8 +1,7 @@
 .app-white {
   background-color: white;
   display: flex;
-  width: 70vw;
-  max-width: 70vw;
+  width: 1150px;
   height: fit-content;
   font-size: 1.5em;
   padding: 2vw;
@@ -33,6 +32,7 @@
   font-size: 0.8em;
   word-spacing: 0.5vw;
   margin: 0 1vw;
+  text-align: center;
 }
 
 .hr-top {
@@ -79,9 +79,10 @@
 }
 
 .app-white-space {
+  height: 85%;
   padding: 2.5vw;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   max-width: 25%;
@@ -109,7 +110,7 @@
 .app-white-row {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .app-white-circle {
