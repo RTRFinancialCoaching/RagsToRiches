@@ -5,7 +5,9 @@ const AppMainBody = () => {
   return (
     <div className="main-body">
       <div className="app-content">
-        <h1>From Financial Success to Lasting Security</h1>
+        <h1>
+          From Financial Success <br /> To Lasting Security
+        </h1>
         <p>
           Helping first-generation success stories navigate wealth with clarity,
           confidence, and purpose
