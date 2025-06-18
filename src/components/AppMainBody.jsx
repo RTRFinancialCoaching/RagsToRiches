@@ -14,7 +14,7 @@ const AppMainBody = () => {
         </p>
       </div>
       <div className="app-white">
-        <h2> What I Do</h2>
+        <h2> What I Do: </h2>
         <div className="app-white-hr">
           <div className="two-hr hr-left">
             <hr className="hr-top" />

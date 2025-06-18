@@ -1,12 +1,11 @@
 .app-white {
   background-color: white;
   display: flex;
-  width: 1150px;
+  width: 1100px;
   height: fit-content;
   font-size: 1.5em;
-  padding: 2vw;
-  margin-left: 1vw;
-  margin-right: 1vw;
+  padding: 40px;
+  margin: 0 40px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -23,7 +22,7 @@
   background-color: transparent;
   margin: 1px 0;
   height: 2px;
-  width: 10vw;
+  width: 270px;
 }
 
 .app-white-hr h3 {
@@ -36,7 +35,7 @@
 }
 
 .hr-top {
-  width: 18vw !important;
+  width: 370px !important;
   border-color: #000000;
 }
 
@@ -59,7 +58,7 @@
   font-family: "Axis", sans-serif;
   font-weight: 800;
   font-size: 0.8em;
-  word-spacing: 0.5vw;
+  word-spacing: 10px;
   margin: 0 1vw;
 }
 
@@ -79,8 +78,8 @@
 }
 
 .app-white-space {
-  height: 85%;
-  padding: 2.5vw;
+  height: 93%;
+  padding: 20px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -90,7 +89,7 @@
 }
 
 .app-white-grid {
-  margin-top: 4vw;
+  margin-top: 60px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -117,8 +116,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 7vw;
-  height: 7vw;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   border: #c5c5c57e 3px solid;
 }

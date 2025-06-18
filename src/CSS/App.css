@@ -7,7 +7,7 @@
   background-repeat: round;
   background-size: cover;
   width: 99.1vw;
-  height: 230vh;
+  height: 2080px;
 }
 
 @font-face {
@@ -41,7 +41,7 @@
 
 .app-content {
   width: 1100px;
-  margin: 9vw 0;
+  margin: 100px 0;
   font-size: larger;
   font-weight: bolder;
   color: white;
