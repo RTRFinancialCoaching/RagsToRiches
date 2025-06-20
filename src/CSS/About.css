@@ -36,7 +36,7 @@
 .about-main {
   background-color: white;
   width: 1150px;
-  height: 500px;
+  height: 800px;
 }
 
 .about-main-top {
@@ -99,4 +99,97 @@
 .about-top-contain {
   display: flex;
   flex-direction: column;
+}
+
+.about-prof {
+  background-color: #00013815;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-prof h3 {
+  font-size: 1.2em;
+  font-family: "CircularStd", sans-serif;
+  font-weight: 800;
+  margin: 0;
+}
+
+.about-prof-title {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+
+.about-body hr {
+  margin: 0;
+  margin-top: 0.25vw !important;
+  border-width: 0;
+}
+
+.about-connect-hr {
+  margin: 0 1.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 35%;
+  height: 100%;
+}
+
+.about-hr-left {
+  align-items: flex-end;
+}
+
+.about-hr-top {
+  width: 100%;
+  border-top: solid #000000 1px !important;
+}
+
+.about-hr-bottom {
+  width: 80%;
+  border-top: solid rgb(0, 156, 156) 1px !important;
+}
+
+.about-prof-main {
+  padding: 40px 0;
+  width: 100%;
+  display: flex;
+}
+
+.about-prof-list {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+.about-prof-list p:before {
+  content: "";
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-size: 20px;
+  background-image: url("./icons/check-circle.svg");
+  background-repeat: no-repeat;
+  margin-right: 5px;
+}
+
+.about-prof-list img {
+  height: 5px;
+  width: 5px;
+}
+
+.about-prof p {
+  text-align: start;
+  color: #1b1b1b;
+  font-size: 17px;
+  font-weight: 200;
+  font-family: "Avenir Next", sans-serif;
+  margin-top: 0;
+  margin-bottom: 25px;
+  padding-left: 100px;
 }
