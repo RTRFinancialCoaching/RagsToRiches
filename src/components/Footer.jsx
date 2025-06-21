@@ -25,12 +25,12 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a href="https://www.tiktok.com">
-                      <img src="./icons/tiktok.svg" /> <h4>Tiktok</h4>
+                      <img src="/icons/tiktok.svg" /> <h4>Tiktok</h4>
                     </a>
                   </li>
                   <li>
                     <a>
-                      <img src="./icons/youtube.svg" /> <h4>Youtube</h4>
+                      <img src="/icons/youtube.svg" /> <h4>Youtube</h4>
                     </a>
                   </li>
                 </ul>

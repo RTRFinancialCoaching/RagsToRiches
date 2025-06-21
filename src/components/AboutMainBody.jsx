@@ -7,19 +7,19 @@ const AboutMainBody = () => {
       <div className="about-contain">
         <div className="about-main">
           <div className="about-main-top">
-            <img src="./Jase.jpg" />
+            <img src="/Jase.jpg" />
             <div className="about-top-title">
               <div className="about-top-contain">
                 <h1>Jason Floyd</h1>
                 <p>FOUNDER & COLOSUL NERD</p>
                 <div className="about-top-links">
                   <AboutLink
-                    imgSrc="./icons/youtube.svg"
+                    imgSrc="/icons/youtube.svg"
                     linkRef="https://www.Youtube.com"
                     title="YouTube"
                   />
                   <AboutLink
-                    imgSrc="./icons/tiktok.svg"
+                    imgSrc="/icons/tiktok.svg"
                     linkRef="https://www.TikTok.com"
                     title="TikTok"
                   />
@@ -147,12 +147,12 @@ const AboutMainBody = () => {
                 vitae dicta sunt explicabo.
               </p>
               <div className="about-content-pics">
-                <img src="./Jase/Jase2.jpg" />
-                <img src="./Jase/Jase3.jpg" />
-                <img src="./Jase/Jase4.jpg" />
-                <img src="./Jase/Jase5.jpg" />
-                <img src="./Jase/Jase6.jpg" />
-                <img src="./Jase/Jase7.jpg" />
+                <img src="/Jase/Jase2.jpg" />
+                <img src="/Jase/Jase3.jpg" />
+                <img src="/Jase/Jase4.jpg" />
+                <img src="/Jase/Jase5.jpg" />
+                <img src="/Jase/Jase6.jpg" />
+                <img src="/Jase/Jase7.jpg" />
               </div>
             </div>
           </div>
