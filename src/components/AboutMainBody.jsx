@@ -70,6 +70,92 @@ const AboutMainBody = () => {
               </ul>
             </div>
           </div>
+          <div className="about-content">
+            <div className="about-content-side">
+              <div className="about-content-title">
+                <h3>The man the myth the legend</h3>
+                <div className="about-connect-hr">
+                  <hr className="about-hr-top" />
+                  <hr className="about-hr-bottom" />
+                </div>
+              </div>
+              <h4>Why though?</h4>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo.
+              </p>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo.
+              </p>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo.
+              </p>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo.
+              </p>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo.
+              </p>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo.
+              </p>
+            </div>
+            <div className="about-content-side about-content-border">
+              <div className="about-content-title">
+                <h3>Tax Evasion</h3>
+                <div className="about-connect-hr">
+                  <hr className="about-hr-top" />
+                  <hr className="about-hr-bottom" />
+                </div>
+              </div>
+              <h4>How To</h4>
+              <p>
+                But I must explain to you how all this mistaken idea of
+                denouncing pleasure and praising pain was born and I will give
+                you a complete account of the system
+              </p>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae
+              </p>
+              <p>
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis praesentium voluptatum deleniti atque co
+              </p>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo.
+              </p>
+              <div className="about-content-pics">
+                <img src="./Jase/Jase2.jpg" />
+                <img src="./Jase/Jase3.jpg" />
+                <img src="./Jase/Jase4.jpg" />
+                <img src="./Jase/Jase5.jpg" />
+                <img src="./Jase/Jase6.jpg" />
+                <img src="./Jase/Jase7.jpg" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

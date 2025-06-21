@@ -2,7 +2,7 @@
   color: #101d38;
   position: relative;
   width: 99.1vw;
-  height: 2080px;
+  padding-bottom: 50px;
 }
 
 .about-background {
@@ -36,7 +36,7 @@
 .about-main {
   background-color: white;
   width: 1150px;
-  height: 800px;
+  padding-bottom: 50px;
 }
 
 .about-main-top {
@@ -192,4 +192,38 @@
   margin-top: 0;
   margin-bottom: 25px;
   padding-left: 100px;
+}
+
+.about-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.about-content-side {
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.about-content-border {
+  border-left: #00013815 2px solid;
+}
+
+.about-content-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.about-content-pics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.about-content-pics img {
+  padding: 2px;
+  width: 250px;
 }
