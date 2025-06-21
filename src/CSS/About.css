@@ -173,7 +173,7 @@
   height: 20px;
   width: 20px;
   background-size: 20px;
-  background-image: url("./icons/check-circle.svg");
+  background-image: url(/icons/check-circle.svg);
   background-repeat: no-repeat;
   margin-right: 5px;
 }
