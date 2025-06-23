@@ -8,10 +8,10 @@
   background-size: cover;
   color: white;
   width: 99.1vw;
-  height: 80vh;
+  height: 800px;
 }
 .app-lure {
-  width: 50%;
+  width: 80%;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -35,7 +35,8 @@
 }
 
 .app-lure-cont {
-  width: 75vw;
+  padding-top: 50px;
+  width: 100%;
   justify-content: center;
   display: flex;
 }
