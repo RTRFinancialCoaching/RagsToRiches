@@ -3,6 +3,7 @@ import React from "react";
 const Lure = () => {
   return (
     <div className="body-lure body-shade">
+      <div className="lure-back"></div>
       <div className="main-body">
         <div className="app-lure">
           <h1>Do any of these sound like you?</h1>
