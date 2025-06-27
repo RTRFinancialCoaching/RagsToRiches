@@ -23,6 +23,7 @@
   filter: brightness(85%) contrast(95%);
   background-position: left top;
   background-color: #000000b9;
+  background-attachment: fixed;
   background-image: url(/Background_2.png);
   background-repeat: round;
   background-size: cover;

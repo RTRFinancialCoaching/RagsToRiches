@@ -9,6 +9,7 @@ import AppMainBody from "../components/AppMainBody.jsx";
 import Lure from "../components/Lure.jsx";
 import Feeling from "../components/Feeling.jsx";
 import Footer from "../components/Footer.jsx";
+import Services from "../components/Services.jsx";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <AppMainBody />
       </div>
       <Lure />
-      <Feeling />
+      <Services />
       <Footer />
     </div>
   );
