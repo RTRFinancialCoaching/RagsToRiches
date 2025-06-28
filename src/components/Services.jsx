@@ -9,7 +9,7 @@ const Services = () => {
       <div className="services-container">
         <div className="services-grid">
           <div className="services-li">
-            <a href="">
+            <a href="/Services/retirement">
               <div className="services-li-img">
                 <img src="/icons/business-bag.svg" />
               </div>
@@ -69,7 +69,7 @@ const Services = () => {
               <div className="services-li-img">
                 <img src="/icons/business-bag.svg" />
               </div>
-              <h3>Transition Planning</h3>
+              <h3>Life Transition Planning</h3>
             </a>
           </div>
           <div className="services-li">
@@ -77,7 +77,7 @@ const Services = () => {
               <div className="services-li-img">
                 <img src="/icons/business-bag.svg" />
               </div>
-              <h3>Content Creator Planning</h3>
+              <h3>Business Planning</h3>
             </a>
           </div>
           <div></div>
