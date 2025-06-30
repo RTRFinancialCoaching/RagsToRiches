@@ -10,12 +10,15 @@ const Services = () => {
   const params = useParams();
 
   useEffect(() => {
-    console.log(params);
     if (params.sectionId) {
       const element = document.getElementById(params.sectionId);
-      console.log(element);
       if (element) {
         element.scrollIntoView({ behavior: "smooth" });
+        element.className = "services-link";
+        const elContent = document.getElementById(
+          params.sectionId + "-content"
+        );
+        elContent.className = "services-link-content";
       }
     }
   }, []);

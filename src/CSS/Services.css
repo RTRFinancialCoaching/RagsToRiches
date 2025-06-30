@@ -159,14 +159,29 @@ html {
   margin-bottom: 100px;
   display: flex;
   min-height: 500px;
+  transition: all 0.5s;
+}
+
+.collapse {
+  min-height: 0;
+}
+
+.collapse > .services-link-left {
+  border-top-left-radius: 30%;
+  border-bottom-left-radius: 30%;
+}
+
+.content-collapse {
+  display: none;
 }
 
 .services-link-left {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 250px;
+  width: 180px;
   background-color: #ececec;
+  transition: all 0.5s;
 }
 .services-link-cir {
   display: flex;
@@ -176,6 +191,7 @@ html {
   height: 120px;
   border-radius: 50%;
   background-color: inherit;
+  margin: 20px;
   border: 3px solid rgb(194, 194, 194);
 }
 .services-link-left img {
@@ -188,6 +204,10 @@ html {
   background-color: white;
   color: #1a1d35;
   text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .services-link-right h2 {

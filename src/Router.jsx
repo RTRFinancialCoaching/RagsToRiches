@@ -9,6 +9,7 @@ const Router = () => {
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/About" element={<About />} />
+      <Route path="/Services" element={<Services />} />
       <Route path="/Services/:sectionId" element={<Services />} />
     </Routes>
   );
