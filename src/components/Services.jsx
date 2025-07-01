@@ -9,7 +9,7 @@ const Services = () => {
       <div className="services-container">
         <div className="services-grid">
           <div className="services-li">
-            <a href="/Services/retirement">
+            <a href="/Services/0">
               <div className="services-li-img">
                 <img src="/icons/business-bag.svg" />
               </div>
@@ -17,7 +17,7 @@ const Services = () => {
             </a>
           </div>
           <div className="services-li">
-            <a href="">
+            <a href="/Services/1">
               <div className="services-li-img">
                 <img src="/icons/business-bag.svg" />
               </div>
@@ -25,7 +25,7 @@ const Services = () => {
             </a>
           </div>
           <div className="services-li">
-            <a href="">
+            <a href="/Services/2">
               <div className="services-li-img">
                 <img src="/icons/business-bag.svg" />
               </div>
@@ -33,7 +33,7 @@ const Services = () => {
             </a>
           </div>
           <div className="services-li">
-            <a href="">
+            <a href="/Services/3">
               <div className="services-li-img">
                 <img src="/icons/business-bag.svg" />
               </div>
@@ -41,15 +41,15 @@ const Services = () => {
             </a>
           </div>
           <div className="services-li">
-            <a href="">
+            <a href="/Services/4">
               <div className="services-li-img">
                 <img src="/icons/business-bag.svg" />
               </div>
-              <h3>Estate Planning</h3>
+              <h3>Legacy Planning</h3>
             </a>
           </div>
           <div className="services-li">
-            <a href="">
+            <a href="/Services/5">
               <div className="services-li-img">
                 <img src="/icons/business-bag.svg" />
               </div>
@@ -57,7 +57,7 @@ const Services = () => {
             </a>
           </div>
           <div className="services-li">
-            <a href="">
+            <a href="/Services/6">
               <div className="services-li-img">
                 <img src="/icons/business-bag.svg" />
               </div>
@@ -65,7 +65,7 @@ const Services = () => {
             </a>
           </div>
           <div className="services-li">
-            <a href="">
+            <a href="/Services/7">
               <div className="services-li-img">
                 <img src="/icons/business-bag.svg" />
               </div>
@@ -73,7 +73,7 @@ const Services = () => {
             </a>
           </div>
           <div className="services-li">
-            <a href="">
+            <a href="/Services/8">
               <div className="services-li-img">
                 <img src="/icons/business-bag.svg" />
               </div>
@@ -82,7 +82,7 @@ const Services = () => {
           </div>
           <div></div>
           <div className="services-li">
-            <a href="">
+            <a href="/Services/9">
               <div className="services-li-img">
                 <img src="/icons/business-bag.svg" />
               </div>

@@ -164,6 +164,7 @@ html {
 
 .collapse {
   min-height: 0;
+  margin-bottom: 35px;
 }
 
 .collapse > .services-link-left {
