@@ -106,6 +106,7 @@ html {
 }
 
 .services-li a {
+  width: 340px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -122,17 +123,17 @@ html {
 }
 
 .services-li img {
-  width: 60%;
-  height: 60%;
+  width: 60px;
+  height: 60px;
 }
 
 .services-li h3 {
   color: #222222;
-  text-align: center;
+  text-align: left;
   padding: 20px;
   margin: 0;
   font-size: 1.2em;
-  width: 80%;
+  width: 225px;
 }
 
 .services-contain {
@@ -196,8 +197,8 @@ html {
   border: 3px solid rgb(194, 194, 194);
 }
 .services-link-left img {
-  width: 60%;
-  height: 60%;
+  width: 80%;
+  height: 80%;
 }
 .services-link-right {
   width: 700px;

@@ -13,7 +13,7 @@ const ServicesMainBody = () => {
           <ul id="services-ul">
             <ServiceLink
               id="0"
-              imgSrc="/icons/business-bag.svg"
+              imgSrc="/Services/Retirement.svg"
               h2="Retirement Planning"
             >
               <h4>Pre-Retirement Planning:</h4>
@@ -154,11 +154,7 @@ const ServicesMainBody = () => {
                 our partnered investment advisory firm
               </p>
             </ServiceLink>
-            <ServiceLink
-              id="1"
-              imgSrc="/icons/business-bag.svg"
-              h2="Tax Planning"
-            >
+            <ServiceLink id="1" imgSrc="/Services/Tax.svg" h2="Tax Planning">
               <ul className="services-ul">
                 <li>
                   <p>
@@ -202,7 +198,7 @@ const ServicesMainBody = () => {
             </ServiceLink>
             <ServiceLink
               id="2"
-              imgSrc="/icons/business-bag.svg"
+              imgSrc="/Services/Investment.svg"
               h2="Investment Planning"
             >
               <h4>
@@ -283,7 +279,7 @@ const ServicesMainBody = () => {
             </ServiceLink>
             <ServiceLink
               id="3"
-              imgSrc="/icons/business-bag.svg"
+              imgSrc="/Services/Insurance.svg"
               h2="Insurance Planning"
             >
               <h4>
@@ -393,7 +389,7 @@ const ServicesMainBody = () => {
             </ServiceLink>
             <ServiceLink
               id="4"
-              imgSrc="/icons/business-bag.svg"
+              imgSrc="/Services/Estate.svg"
               h2="Legacy Planning"
             >
               <ul className="services-ul">
@@ -483,7 +479,7 @@ const ServicesMainBody = () => {
             </ServiceLink>
             <ServiceLink
               id="5"
-              imgSrc="/icons/business-bag.svg"
+              imgSrc="/Services/Employee-Benefits.svg"
               h2="Employee Benefit Planning"
             >
               <ul className="services-ul">
@@ -553,7 +549,7 @@ const ServicesMainBody = () => {
             </ServiceLink>
             <ServiceLink
               id="6"
-              imgSrc="/icons/business-bag.svg"
+              imgSrc="/Services/Financial-Therapy.svg"
               h2="Financial Therapy"
             >
               <h4>I can teach you to:</h4>
@@ -621,7 +617,7 @@ const ServicesMainBody = () => {
             </ServiceLink>
             <ServiceLink
               id="7"
-              imgSrc="/icons/business-bag.svg"
+              imgSrc="/Services/Life-Transition.svg"
               h2="Life Transition Planning"
             >
               <h4>
@@ -665,7 +661,7 @@ const ServicesMainBody = () => {
             </ServiceLink>
             <ServiceLink
               id="8"
-              imgSrc="/icons/business-bag.svg"
+              imgSrc="/Services/Business.svg"
               h2="Small Business Planning for Content Creators"
             >
               <ul className="services-ul">
@@ -751,7 +747,7 @@ const ServicesMainBody = () => {
             </ServiceLink>
             <ServiceLink
               id="9"
-              imgSrc="/icons/business-bag.svg"
+              imgSrc="/Services/Other-Topics.svg"
               h2="Other Financial Planning Topics"
             >
               <ul className="services-ul">
