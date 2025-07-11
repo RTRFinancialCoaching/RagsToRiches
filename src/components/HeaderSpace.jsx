@@ -1,8 +1,8 @@
 import React from "react";
 
-const HeaderSpace = ({ hrefLink, spanName }) => {
+const HeaderSpace = ({ hrefLink, spanName, className = "" }) => {
   return (
-    <li className="header-space">
+    <li className={"header-space" + " " + className}>
       <span className="header-space-top"></span>
       <a href={hrefLink}>
         <span>{spanName}</span>

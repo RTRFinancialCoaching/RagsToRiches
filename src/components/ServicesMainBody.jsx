@@ -546,6 +546,10 @@ const ServicesMainBody = () => {
                   </p>
                 </li>
               </ul>
+              <p>
+                *Portfolio-specific advice is offered at no extra cost through
+                our partnered investment advisory firm
+              </p>
             </ServiceLink>
             <ServiceLink
               id="6"
@@ -627,7 +631,10 @@ const ServicesMainBody = () => {
               </h4>
               <ul className="services-ul">
                 <li>
-                  <p>Newlyweds (for you or your children / grandchildren)</p>
+                  <p>Newlyweds</p>
+                </li>
+                <li>
+                  <p>New Parents</p>
                 </li>
                 <li>
                   <p>Home purchase / moving</p>
@@ -658,6 +665,10 @@ const ServicesMainBody = () => {
                   <p>Major health change</p>
                 </li>
               </ul>
+              <p>
+                These planning services can be made available to you or your
+                children / other family members
+              </p>
             </ServiceLink>
             <ServiceLink
               id="8"

@@ -20,8 +20,12 @@ const Header = ({ pageNum = 0 }) => {
           <HeaderSpace hrefLink="/" spanName="HOME" />
           <HeaderSpace hrefLink="/About" spanName="ABOUT" />
           <HeaderSpace hrefLink="/Services" spanName="SERVICES" />
-          <HeaderSpace hrefLink="/Blog" spanName="BLOG" />
-          <HeaderSpace hrefLink="/Contact" spanName="CONTACT" />
+          <HeaderSpace hrefLink="/Process" spanName="PROCESS" />
+          <HeaderSpace
+            hrefLink="/Contact"
+            spanName="CONTACT"
+            className="header-contact"
+          />
         </ul>
       </div>
     </div>

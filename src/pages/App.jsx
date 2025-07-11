@@ -10,6 +10,7 @@ import Lure from "../components/Lure.jsx";
 import Feeling from "../components/Feeling.jsx";
 import Footer from "../components/Footer.jsx";
 import Services from "../components/Services.jsx";
+import Action from "../components/Action.jsx";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       </div>
       <Lure />
       <Services />
+      <Action />
       <Footer />
     </div>
   );
