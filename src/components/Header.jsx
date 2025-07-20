@@ -8,8 +8,20 @@ const Header = ({ pageNum = 0 }) => {
     page.classList.add("page-selected");
   }, []);
 
+  const [headerScrolled, setHeaderScrolled] = useState("");
+
+  const onScrollFunc = (event) => {
+    const scrollPosition = window.scrollY;
+    console.log(scrollPosition);
+    if (scrollPosition > 200) {
+      setHeaderScrolled(" header-scrolled");
+    } else {
+      setHeaderScrolled("");
+    }
+  };
+
   return (
-    <div className="header-div">
+    <div className={"header-div" + headerScrolled} onScroll={onScrollFunc}>
       <div className="title">
         <div className="logo-img">
           <a href="/"></a>
@@ -20,7 +32,10 @@ const Header = ({ pageNum = 0 }) => {
           <HeaderSpace hrefLink="/" spanName="HOME" />
           <HeaderSpace hrefLink="/About" spanName="ABOUT" />
           <HeaderSpace hrefLink="/Services" spanName="SERVICES" />
-          <HeaderSpace hrefLink="/Process" spanName="PROCESS" />
+          <HeaderSpace
+            hrefLink="/Working-Together"
+            spanName="WORKING TOGETHER"
+          />
           <HeaderSpace
             hrefLink="/Contact"
             spanName="CONTACT"

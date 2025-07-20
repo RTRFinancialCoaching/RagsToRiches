@@ -19,7 +19,6 @@ const Footer = () => {
                   <h3>Connect:</h3>
                   <div className="footer-connect-hr">
                     <hr className="footer-top" />
-                    <hr className="footer-bottom" />
                   </div>
                 </div>
                 <ul>
@@ -42,7 +41,6 @@ const Footer = () => {
                   <h3>Contact Info:</h3>
                   <div className="contact-link-hr">
                     <hr className="footer-top" />
-                    <hr className="footer-bottom" />
                   </div>
                 </div>
                 <a>
@@ -52,7 +50,6 @@ const Footer = () => {
                   <h3>Not Sure:</h3>
                   <div className="contact-link-hr">
                     <hr className="footer-top" />
-                    <hr className="footer-bottom" />
                   </div>
                 </div>
                 <p>

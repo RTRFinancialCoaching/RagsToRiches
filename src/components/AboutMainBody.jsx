@@ -7,7 +7,7 @@ const AboutMainBody = () => {
       <div className="about-contain">
         <div className="about-main">
           <div className="about-main-top">
-            <img src="/Jase.jpg" />
+            <img src="/Jase/Headshot.jpg" />
             <div className="about-top-title">
               <div className="about-top-contain">
                 <h1>Jason Floyd</h1>
@@ -31,12 +31,10 @@ const AboutMainBody = () => {
             <div className="about-prof-title">
               <div className="about-hr-left about-connect-hr">
                 <hr className="about-hr-top" />
-                <hr className="about-hr-bottom" />
               </div>
               <h3>The Certifications</h3>
               <div className="about-connect-hr">
                 <hr className="about-hr-top" />
-                <hr className="about-hr-bottom" />
               </div>
             </div>
             <div className="about-prof-main">
@@ -76,7 +74,6 @@ const AboutMainBody = () => {
                 <h3>The man the myth the legend</h3>
                 <div className="about-connect-hr">
                   <hr className="about-hr-top" />
-                  <hr className="about-hr-bottom" />
                 </div>
               </div>
               <h4>Why though?</h4>
@@ -122,7 +119,6 @@ const AboutMainBody = () => {
                 <h3>Tax Evasion</h3>
                 <div className="about-connect-hr">
                   <hr className="about-hr-top" />
-                  <hr className="about-hr-bottom" />
                 </div>
               </div>
               <h4>How To</h4>

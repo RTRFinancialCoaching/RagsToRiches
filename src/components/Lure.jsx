@@ -12,12 +12,10 @@ const Lure = () => {
               <div className="app-lure-title">
                 <div className="app-lure-hr app-lure-left">
                   <hr className="lure-hr-top" />
-                  <hr className="lure-hr-bottom" />
                 </div>
                 <h3>Online Content Creators</h3>
                 <div className="app-lure-hr">
                   <hr className="lure-hr-top" />
-                  <hr className="lure-hr-bottom" />
                 </div>
               </div>
               <p>
@@ -34,12 +32,10 @@ const Lure = () => {
               <div className="app-lure-title">
                 <div className="app-lure-hr app-lure-left">
                   <hr className="lure-hr-top" />
-                  <hr className="lure-hr-bottom" />
                 </div>
                 <h3>Self-Made Success Stories:</h3>
                 <div className="app-lure-hr">
                   <hr className="lure-hr-top" />
-                  <hr className="lure-hr-bottom" />
                 </div>
               </div>
               <p>
@@ -55,12 +51,10 @@ const Lure = () => {
               <div className="app-lure-title">
                 <div className="app-lure-hr app-lure-left">
                   <hr className="lure-hr-top" />
-                  <hr className="lure-hr-bottom" />
                 </div>
                 <h3>Pre-Successful Individuals</h3>
                 <div className="app-lure-hr">
                   <hr className="lure-hr-top" />
-                  <hr className="lure-hr-bottom" />
                 </div>
               </div>
               <p>

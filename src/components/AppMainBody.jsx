@@ -18,12 +18,10 @@ const AppMainBody = () => {
         <div className="app-white-hr">
           <div className="two-hr hr-left">
             <hr className="hr-top" />
-            <hr className="hr-bottom" />
           </div>
           <h3> FINANCIAL COACHING FOR THE SELF-MADE</h3>
           <div className="two-hr">
             <hr className="hr-top" />
-            <hr className="hr-bottom" />
           </div>
         </div>
         <div className="app-white-grid">

@@ -9,7 +9,6 @@ const Action = () => {
         <div className="action-hr-div">
           <div className="action-hr action-hr-left">
             <hr className="action-hr-top" />
-            <hr />
           </div>
           <h3>
             Schedule a free 30-minute call with me. No sales pitch, just a real
@@ -18,7 +17,6 @@ const Action = () => {
           </h3>
           <div className="action-hr">
             <hr className="action-hr-top" />
-            <hr />
           </div>
         </div>
 

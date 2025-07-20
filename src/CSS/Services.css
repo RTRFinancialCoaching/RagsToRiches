@@ -164,6 +164,7 @@ html {
 }
 
 .collapse {
+  cursor: pointer;
   min-height: 0;
   margin-bottom: 35px;
 }
