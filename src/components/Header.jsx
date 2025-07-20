@@ -6,22 +6,17 @@ const Header = ({ pageNum = 0 }) => {
     const headerSpaces = document.getElementById("HeaderSpaces");
     const page = headerSpaces.children.item(pageNum);
     page.classList.add("page-selected");
+    window.addEventListener("scroll", onScrollFunc);
   }, []);
 
-  const [headerScrolled, setHeaderScrolled] = useState("");
-
   const onScrollFunc = (event) => {
-    const scrollPosition = window.scrollY;
-    console.log(scrollPosition);
-    if (scrollPosition > 200) {
-      setHeaderScrolled(" header-scrolled");
-    } else {
-      setHeaderScrolled("");
+    const offset = window.pageYOffset;
+    if (offset >= 200) {
     }
   };
 
   return (
-    <div className={"header-div" + headerScrolled} onScroll={onScrollFunc}>
+    <div className={"header-div header-sticky"}>
       <div className="title">
         <div className="logo-img">
           <a href="/"></a>

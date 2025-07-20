@@ -80,25 +80,33 @@ const AboutMainBody = () => {
             </div>
             <div className="about-content-side about-content-border">
               <div className="about-content-title">
-                <h3>Tax Evasion</h3>
+                <h3>My Background</h3>
                 <div className="about-connect-hr">
                   <hr className="about-hr-top" />
                 </div>
               </div>
-              <h4>How To</h4>
               <p>
-                But I must explain to you how all this mistaken idea of
-                denouncing pleasure and praising pain was born and I will give
-                you a complete account of the system
+                I have always been a nerd when it comes to money. As a kid, I
+                would daydream about the latest Nintendo 64 game that I wanted
+                or other big purchases that I didn’t currently have the money
+                for. I tried everything I could to make money, from selling
+                plums door-to-door to selling candy to my classmates at school
+                (which got me in trouble with more than one principal).
               </p>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae
+                Those dreams made saving and earning feel exciting, not like a
+                chore, but like an adventure. And that feeling stuck with me.
               </p>
               <p>
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque co
+                While I was in college at Utah State University, I took a class
+                in personal finance which made me realize that I could make a
+                profession out of turning other people’s dreams into their own
+                realities. I’ve been helping others with their finances
+                professionally since 2018. Along the way, I have received a
+                master’s degree in financial planning, 2 graduate certificates
+                in Advanced Financial Planning and Financial Therapy, and
+                designations as a Certified Financial Planner™ professional and
+                a Certified Financial Therapist professional.
               </p>
               <p>
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -106,14 +114,6 @@ const AboutMainBody = () => {
                 quae ab illo inventore veritatis et quasi architecto beatae
                 vitae dicta sunt explicabo.
               </p>
-              <div className="about-content-pics">
-                <img src="/Jase/Jase2.jpg" />
-                <img src="/Jase/Jase3.jpg" />
-                <img src="/Jase/Jase4.jpg" />
-                <img src="/Jase/Jase5.jpg" />
-                <img src="/Jase/Jase6.jpg" />
-                <img src="/Jase/Jase7.jpg" />
-              </div>
             </div>
           </div>
         </div>

@@ -196,6 +196,7 @@
 }
 
 .about-content {
+  flex-direction: column;
   display: flex;
   align-items: flex-start;
 }
@@ -209,7 +210,7 @@
 }
 
 .about-content-border {
-  border-left: #00013815 2px solid;
+  border-top: #00013815 3px solid;
 }
 
 .about-content-title {

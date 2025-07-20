@@ -1,12 +1,15 @@
 .header-div {
-  position: sticky;
-  top: 0;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   height: 100px;
   background-color: #00000010;
 }
+.header-sticky {
+  position: sticky;
+  top: 0;
+}
+
 .logo-img {
   padding-top: 0;
   height: 100%;
@@ -43,6 +46,7 @@
 }
 
 .header-space {
+  max-width: 150px;
   position: relative;
   display: flex;
   flex-direction: column;
