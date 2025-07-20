@@ -10,9 +10,19 @@ const AboutMainBody = () => {
             <img src="/Jase/Headshot.jpg" />
             <div className="about-top-title">
               <div className="about-top-contain">
-                <h1>Jason Floyd</h1>
-                <p>FOUNDER & COLOSUL NERD</p>
+                <h1>Jason Floyd, MSFP, CFT™, CFP®</h1>
+                <p>Financial Coach and Guide</p>
                 <div className="about-top-links">
+                  <AboutLink
+                    imgSrc="/icons/email.svg"
+                    linkRef="https://www.Gmail.com"
+                    title="Email Jason"
+                  />
+                  <AboutLink
+                    imgSrc="/icons/linkedin.svg"
+                    linkRef="https://www.LinkedIn.com"
+                    title="LinkedIn"
+                  />
                   <AboutLink
                     imgSrc="/icons/youtube.svg"
                     linkRef="https://www.Youtube.com"
@@ -32,7 +42,7 @@ const AboutMainBody = () => {
               <div className="about-hr-left about-connect-hr">
                 <hr className="about-hr-top" />
               </div>
-              <h3>The Certifications</h3>
+              <h3>Explaining the Letters Behind My Name</h3>
               <div className="about-connect-hr">
                 <hr className="about-hr-top" />
               </div>
@@ -40,78 +50,32 @@ const AboutMainBody = () => {
             <div className="about-prof-main">
               <ul className="about-prof-list">
                 <li>
-                  <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium doloremque laudantium, tot
-                  </p>
+                  <p>MSFP: Master of Science in Financial Planning</p>
                 </li>
                 <li>
-                  <p>Financial thing.</p>
+                  <p>CFT™: Certified Financial Therapist™ professional</p>
                 </li>
                 <li>
-                  <p>Financial thing.</p>
+                  <p>CFP®: Certified Financial Planner™ professional</p>
                 </li>
               </ul>
-              <ul className="about-prof-list">
-                <li>
-                  <p>Financial thing.</p>
-                </li>
-                <li>
-                  <p>Financial thing.</p>
-                </li>
-                <li>
-                  <p>Financial thing.</p>
-                </li>
-                <li>
-                  <p>Financial thing.</p>
-                </li>
-              </ul>
+              <ul className="about-prof-list"></ul>
             </div>
           </div>
           <div className="about-content">
             <div className="about-content-side">
               <div className="about-content-title">
-                <h3>The man the myth the legend</h3>
+                <h3>About Me</h3>
                 <div className="about-connect-hr">
                   <hr className="about-hr-top" />
                 </div>
               </div>
-              <h4>Why though?</h4>
+              <h4>Hi, I’m Jason</h4>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo.
-              </p>
-              <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo.
-              </p>
-              <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo.
-              </p>
-              <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo.
-              </p>
-              <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo.
-              </p>
-              <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo.
+                Money is personal. That’s why my approach to financial coaching
+                goes beyond spreadsheets and budgets. I help individuals and
+                families build a healthier relationship with money—one that’s
+                aligned with their goals, values, and life stories.
               </p>
             </div>
             <div className="about-content-side about-content-border">

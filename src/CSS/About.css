@@ -45,7 +45,7 @@
 }
 
 .about-main-top h1 {
-  font-size: 2.5em;
+  font-size: 2.8em;
   font-family: "CircularStd", sans-serif;
   margin: 0;
 }
@@ -59,7 +59,7 @@
 .about-main-top p {
   color: #686868;
   letter-spacing: 2px;
-  font-size: 13px;
+  font-size: 16px;
   font-family: "Avenir Next", sans-serif;
   margin-top: 0;
 }
@@ -110,6 +110,7 @@
 }
 
 .about-prof h3 {
+  text-align: center;
   font-size: 1.2em;
   font-family: "CircularStd", sans-serif;
   font-weight: 800;
