@@ -21,6 +21,8 @@
 }
 
 .logo-img > a {
+  margin-left: 50px;
+  margin-bottom: 10px;
   background-repeat: no-repeat;
   background-position: left center;
   background-size: contain;
@@ -33,12 +35,12 @@
   text-indent: 100%;
   overflow: hidden;
   white-space: nowrap;
-  background-image: url(/RTRSide.png);
+  background-image: url(/Logo-Boy.svg);
   transition: 0.25s;
 }
 .logo-img > a:hover {
-  background-image: url(/RTRSideK.png);
-  filter: drop-shadow(2px 2px 2px #000000);
+  background-image: url(/Logo-King.svg);
+  filter: drop-shadow(1px 1px 1px #000000);
 }
 
 .page-selected {
