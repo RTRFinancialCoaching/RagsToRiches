@@ -16,7 +16,7 @@ const Header = ({ pageNum = 0 }) => {
   };
 
   return (
-    <div className={"header-div header-sticky"}>
+    <div className={"header-div"}>
       <div className="title">
         <div className="logo-img">
           <a href="/"></a>

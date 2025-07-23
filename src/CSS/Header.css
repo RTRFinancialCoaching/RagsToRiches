@@ -1,5 +1,9 @@
 .header-div {
   display: flex;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  flex: 1;
   justify-content: space-between;
   flex-direction: row;
   height: 100px;
@@ -40,7 +44,7 @@
 }
 .logo-img > a:hover {
   background-image: url(/Logo-King.svg);
-  filter: drop-shadow(1px 1px 1px #000000);
+  filter: drop-shadow(1px 1px 1px #00000060);
 }
 
 .page-selected {

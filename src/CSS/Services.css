@@ -101,7 +101,7 @@ html {
 .services-li:hover {
   box-shadow: inset #00000067 1px 1px 3px;
   border-bottom: solid 0.5vw transparent;
-  border-image: linear-gradient(to right, rgb(31, 83, 0), rgb(0, 255, 255));
+  border-image: linear-gradient(to right, #c90909, #e0ae07);
   border-image-slice: 1;
 }
 

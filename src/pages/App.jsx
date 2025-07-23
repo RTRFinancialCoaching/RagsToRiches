@@ -22,7 +22,6 @@ function App() {
       <Lure />
       <Services />
       <Action />
-      <Footer />
     </div>
   );
 }

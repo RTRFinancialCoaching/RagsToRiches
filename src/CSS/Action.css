@@ -5,30 +5,17 @@
   position: relative;
   flex: 1;
   color: #1a1d35;
+  background-color: #ffffff;
   height: 700px;
-}
-
-.action-back {
-  display: flex;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0px;
-  top: 0px;
-  box-sizing: border-box;
-  transition: box-shadow 0.5s;
-  overflow: hidden;
-  box-shadow: inset 2px 2px 2px #000000;
-  background-position: left top;
-  background-color: #fff6ea;
-  background-repeat: round;
-  background-size: cover;
-  z-index: -1;
+  border-bottom: solid 5px;
+  border-image: linear-gradient(45deg, #c90909, #ffc400, #ffc400);
+  border-image-slice: 2;
 }
 
 .action-main {
+  color: #1a1d35;
   padding: 20px;
-  background-color: #fff6ea;
+  background: none;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,6 +25,7 @@
 }
 
 .action-main h1 {
+  margin-bottom: 0;
   font-size: 3.8em;
 }
 
@@ -74,28 +62,71 @@
 }
 
 .action-main h3 {
-  padding: 15px;
+  padding: 30px;
   font-size: 1.3em;
-  font-weight: 400;
+  font-weight: 300;
   width: 70%;
 }
 
 .action-main button {
-  color: #ffffff;
-  margin-top: 40px;
-  width: 50%;
-  height: 30%;
-  font-size: 2.8em;
-  font-weight: 900;
-  box-shadow: #000000 2px 2px 4px;
+  background: none;
   border: none;
   border-radius: 10px;
-  background: linear-gradient(0.3turn, #a50707, #eba119);
+  position: relative;
+  width: 32%;
+  height: 13%;
+  font-size: 1.55em;
+  letter-spacing: 2px;
+  color: #c40000;
+  margin-top: 5px;
+  filter: drop-shadow(#0000005d 1px 1px 1px);
+  box-shadow: #000000 1px 1px 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+
   transition: all 0.1s;
+}
+
+.action-main button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 5px solid transparent; /*2*/
+  border-radius: 10px;
+  background: linear-gradient(45deg, #c90909, #ffc400) border-box; /*3*/
+  mask: /*4*/
+    linear-gradient(#000 0 0) padding-box,
+    linear-gradient(#000 0 0);
+  mask-composite: exclude; /*5*/
 }
 
 .action-main button:hover {
   cursor: pointer;
-  filter: contrast(130%);
-  box-shadow: #000000 5px 5px 6px;
+  filter: contrast(130%) drop-shadow(#00000079 2px 2px 2px);
+  box-shadow: #000000 3px 3px 4px;
+}
+
+.action-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-links .about-top-links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-links .about-top-links h3 {
+  padding: 28px 20px 20px 5px;
+}
+
+.action-links h2 {
+  margin: 0;
+  font-size: 2em;
+  text-align: left;
 }
