@@ -1,3 +1,7 @@
+.about {
+  position: relative;
+}
+
 .about-body {
   color: #101d38;
   position: relative;
@@ -26,7 +30,7 @@
 }
 
 .about-contain {
-  margin-top: 80px;
+  padding-top: 180px;
   display: flex;
   flex-direction: column;
   justify-content: center;

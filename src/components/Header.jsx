@@ -25,12 +25,12 @@ const Header = ({ pageNum = 0 }) => {
       <div className="nav-container">
         <ul id="HeaderSpaces">
           <HeaderSpace hrefLink="/" spanName="HOME" />
-          <HeaderSpace hrefLink="/About" spanName="ABOUT" />
           <HeaderSpace hrefLink="/Services" spanName="SERVICES" />
           <HeaderSpace
             hrefLink="/Working-Together"
             spanName="WORKING TOGETHER"
           />
+          <HeaderSpace hrefLink="/About" spanName="ABOUT" />
           <HeaderSpace
             hrefLink="/Contact"
             spanName="CONTACT"

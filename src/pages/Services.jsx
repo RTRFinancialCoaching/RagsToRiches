@@ -5,6 +5,7 @@ import ServicesMainBody from "../components/ServicesMainBody";
 import "../CSS/Services.css";
 
 import { useParams } from "react-router-dom";
+import Action from "../components/Action";
 
 const Services = () => {
   const params = useParams();
@@ -25,11 +26,11 @@ const Services = () => {
 
   return (
     <div className="services">
+      <Header pageNum={1} />
       <div className="services-body">
-        <Header pageNum={2} />
         <ServicesMainBody />
       </div>
-      <Footer />
+      <Action />
     </div>
   );
 };

@@ -1,3 +1,7 @@
+.services {
+  position: relative;
+}
+
 .body-services {
   display: flex;
   flex-direction: column;
@@ -137,7 +141,7 @@ html {
 }
 
 .services-contain {
-  margin-top: 50px;
+  padding-top: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -202,6 +206,8 @@ html {
   height: 80%;
 }
 .services-link-right {
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
   width: 700px;
   padding: 50px;
   background-color: white;

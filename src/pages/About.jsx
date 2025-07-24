@@ -1,17 +1,17 @@
 import "../CSS/About.css";
 
 import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Action from "../components/Action";
 import AboutMainBody from "../components/AboutMainBody";
 
 const About = () => {
   return (
     <div className="about">
+      <Header pageNum={3} />
       <div className="about-body about-tint">
-        <Header pageNum={1} />
         <AboutMainBody />
       </div>
-      <Footer />
+      <Action />
     </div>
   );
 };
