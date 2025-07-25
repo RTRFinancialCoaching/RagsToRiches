@@ -27,6 +27,7 @@ const Services = () => {
   return (
     <div className="services">
       <Header pageNum={1} />
+      <Header pageNum={1} sticky={true} />
       <div className="services-body">
         <ServicesMainBody />
       </div>

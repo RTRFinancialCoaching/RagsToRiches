@@ -17,6 +17,7 @@ function App() {
     <div className="app">
       <div className="body body-tint">
         <Header pageNum={0} />
+        <Header pageNum={0} sticky={true} />
         <AppMainBody />
       </div>
       <Lure />

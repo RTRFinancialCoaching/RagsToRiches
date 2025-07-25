@@ -8,6 +8,7 @@ const About = () => {
   return (
     <div className="about">
       <Header pageNum={3} />
+      <Header pageNum={3} sticky={true} />
       <div className="about-body about-tint">
         <AboutMainBody />
       </div>

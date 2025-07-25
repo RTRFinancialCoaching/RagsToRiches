@@ -1,34 +1,76 @@
 import React, { useEffect, useState } from "react";
 import HeaderSpace from "./HeaderSpace";
 
-const Header = ({ pageNum = 0 }) => {
+const Header = ({ pageNum = 0, sticky = false }) => {
+  const [scrolled, setScrolled] = useState(false);
+  const [scrollY, setScrollY] = useState(0);
+  const [nameClass, setNameClass] = useState("header-div");
+
   useEffect(() => {
-    const headerSpaces = document.getElementById("HeaderSpaces");
-    const page = headerSpaces.children.item(pageNum);
-    page.classList.add("page-selected");
-    window.addEventListener("scroll", onScrollFunc);
+    selectedFunc();
+    if (sticky) {
+      window.addEventListener("scroll", setScrollFunc);
+    }
+
+    setNameClass(
+      sticky
+        ? scrolled
+          ? "header-div header-sticky"
+          : "header-none"
+        : "header-div"
+    );
   }, []);
 
-  const onScrollFunc = (event) => {
-    const offset = window.pageYOffset;
-    if (offset >= 200) {
+  useEffect(() => {
+    if (scrollY >= 50) {
+      setScrolled(true);
+      setNameClass("header-div header-sticky");
+      selectedFunc();
+    } else if (scrolled) {
+      setNameClass(
+        sticky
+          ? scrolled
+            ? "header-div header-sticky header-out"
+            : "header-div header-sticky"
+          : "header-div"
+      );
+      setScrolled(false);
+    }
+  }, [scrollY]);
+
+  const selectedFunc = () => {
+    const headerSpaces = document.getElementById("HeaderSpaces" + sticky);
+    const page = headerSpaces.children.item(pageNum);
+    console.log(page);
+    page.classList.add("page-selected");
+  };
+
+  const setScrollFunc = () => {
+    setScrollY(window.scrollY);
+  };
+
+  const onFadeOut = (event) => {
+    const eName = event.animationName;
+    if (eName === "slideOut") {
+      setNameClass("header-none");
     }
   };
 
   return (
-    <div className={"header-div"}>
+    <div className={nameClass} onAnimationEnd={onFadeOut}>
       <div className="title">
         <div className="logo-img">
           <a href="/"></a>
         </div>
       </div>
       <div className="nav-container">
-        <ul id="HeaderSpaces">
+        <ul id={"HeaderSpaces" + sticky}>
           <HeaderSpace hrefLink="/" spanName="HOME" />
           <HeaderSpace hrefLink="/Services" spanName="SERVICES" />
           <HeaderSpace
             hrefLink="/Working-Together"
-            spanName="WORKING TOGETHER"
+            spanName="WORKING"
+            spanName2="TOGETHER"
           />
           <HeaderSpace hrefLink="/About" spanName="ABOUT" />
           <HeaderSpace
