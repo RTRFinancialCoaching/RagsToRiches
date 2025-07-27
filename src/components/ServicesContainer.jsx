@@ -78,7 +78,7 @@ const ServicesContainer = () => {
         <div className="services-li">
           <a href="/Services/9">
             <div className="services-li-img">
-              <img src="Services/Other-Topics.svg" />
+              <img src="/Services/Other-Topics.svg" />
             </div>
             <h3>Other Topics</h3>
           </a>
