@@ -69,11 +69,12 @@ const WorkingMainBody = () => {
           </div>
           <p>
             New relationships begin with a three-month process where we take a
-            comprehensive look at each area of your financial life at a flat fee
-            of $5,100 per household. The reason I insist on doing a
-            comprehensive financial plan for each of my clients is because I
-            know about so many ways to optimize your finances which would
-            otherwise be ignored if we worked on a more limited engagement.
+            comprehensive look at each area of your financial life at a
+            <strong> flat fee of $5,100</strong> per household. The reason I
+            insist on doing a comprehensive financial plan for each of my
+            clients is because I know about so many ways to optimize your
+            finances which would otherwise be ignored if we worked on a more
+            limited engagement.
           </p>
           <h4>Click each service to learn more</h4>
           <ServicesContainer />
@@ -166,13 +167,14 @@ const WorkingMainBody = () => {
           <p>
             Clients who complete a comprehensive planning engagement may choose
             to continue to enlist me as their guide. Pricing is calculated based
-            on the complexity of needs, with a minimum fee of $7,200 per year,
-            billed quarterly. Each year, there are 3 meetings offered in the
-            Spring, Summer, and Fall where we revisit the various areas of your
-            financial plan and make updates as needed. Additional meetings can
-            be added to address areas of financial therapy, transition planning,
-            or business planning, as needed.Unlimited communication by email or
-            scheduled calls is also included.
+            on the complexity of needs, with a
+            <strong> minimum fee of $7,200 per year</strong>, billed quarterly.
+            Each year, there are 3 meetings offered in the Spring, Summer, and
+            Fall where we revisit the various areas of your financial plan and
+            make updates as needed. Additional meetings can be added to address
+            areas of financial therapy, transition planning, or business
+            planning, as needed.Unlimited communication by email or scheduled
+            calls is also included.
           </p>
         </div>
       </div>

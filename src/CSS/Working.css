@@ -31,6 +31,10 @@
   z-index: -1;
 }
 
+.working-body strong {
+  font-weight: bold;
+}
+
 .working-content {
   text-align: center;
   display: flex;
@@ -139,9 +143,6 @@
   background-color: #ffc400;
   box-shadow: #00000044 -2px 2px 4px;
   border-radius: 2px;
-}
-
-.working-services p {
 }
 
 .working-services h3 {
