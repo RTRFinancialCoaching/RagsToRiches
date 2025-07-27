@@ -1,4 +1,19 @@
+import { useEffect, useState } from "react";
+
 const WorkingMainBody = () => {
+  const [colorHeight, setColorHeight] = useState(0);
+  const [scrollY, setScrollY] = useState(0);
+  const ballHeight2 = 254;
+  const ballHeight3 = 597;
+
+  useEffect(() => {
+    window.addEventListener("scroll", setScrollFunc);
+  }, []);
+
+  const setScrollFunc = () => {
+    setScrollY(window.scrollY);
+  };
+
   return (
     <div className="working-body">
       <div className="working-back"></div>
@@ -19,6 +34,27 @@ const WorkingMainBody = () => {
             for free before making a decision:
           </p>
           <div className="working-list-items">
+            <div className="working-list-bar">
+              <div
+                className="working-list-barColor"
+                style={{ height: `${scrollY}px` }}
+              ></div>
+              <div className="working-list-ball working-list-ballColor"></div>
+              <div
+                className={
+                  `working-list-ball ` +
+                  (scrollY >= ballHeight2 ? "working-list-ballColor" : "")
+                }
+                style={{ top: `${ballHeight2}px` }}
+              ></div>
+              <div
+                className={
+                  "working-list-ball " +
+                  (scrollY >= ballHeight3 ? "working-list-ballColor" : "")
+                }
+                style={{ top: `${ballHeight3}px` }}
+              ></div>
+            </div>
             <div className="working-list-row">
               <div className="working-list-box">
                 <h2>Discovery Call</h2>
