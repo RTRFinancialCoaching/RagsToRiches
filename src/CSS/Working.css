@@ -1,0 +1,134 @@
+.working-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  color: white;
+  padding-top: 100px;
+  width: 99.1vw;
+  height: 2000px;
+}
+
+.working-back {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  box-sizing: border-box;
+  transition: box-shadow 0.5s;
+  overflow: hidden;
+  box-shadow: inset 2px 2px 2px #000000;
+  filter: brightness(50%);
+  background-attachment: fixed;
+  background-position: left top;
+  background-color: #000000b9;
+  background-image: url(/Background-Images/SmokyMountains-WorkingTogether.png);
+  background-repeat: round;
+  background-size: cover;
+  z-index: -1;
+}
+
+.working-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.working-content h1 {
+  font-size: 4em;
+  margin-bottom: 0;
+}
+.working-content p {
+  font-size: 1.5em;
+}
+
+.working-hr-div {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.working-hr-div hr {
+  width: 260px;
+  margin: 2px 10px;
+}
+
+.working-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.working-list h3 {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin: 0 10px;
+}
+
+.working-list-right {
+  text-align: right !important;
+}
+
+.working-list p {
+  font-size: 1em;
+  width: 50%;
+}
+
+.working-list-items {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.working-list-items h3 {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 1.5em;
+  text-transform: none;
+  font-family: Garamond, serif;
+}
+
+.working-list-row {
+  display: grid;
+  padding: 20px;
+  gap: 70px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.working-list-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  justify-content: center;
+  background-color: white;
+  color: #000000;
+  width: 400px;
+  padding: 25px;
+  border-radius: 15px;
+  font-family: Garamond, serif;
+}
+
+.working-list-box p {
+  width: 100%;
+  font-size: 1.2em;
+  font-family: Arial, sans-serif;
+  color: #4b4b4b;
+}
+
+.working-list-box h2 {
+  margin: 0;
+  font-size: 2em;
+  color: #313131;
+}

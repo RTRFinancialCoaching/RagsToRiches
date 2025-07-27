@@ -7,9 +7,7 @@ const Contact = () => {
     <div className="contact">
       <Header pageNum={4} />
       <Header pageNum={4} sticky={true} />
-      <div className="contact-back">
-        <div className="contact-back-shade"></div>
-      </div>
+      <div className="contact-back"></div>
       <div className="contact-hr-div">
         <hr />
         <h1>Contact:</h1>
