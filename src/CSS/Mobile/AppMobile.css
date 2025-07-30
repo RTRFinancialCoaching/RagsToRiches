@@ -1,12 +1,18 @@
 @media screen and (max-width: 450px) {
   .body {
-    height: 4500px;
+    height: fit-content;
+    width: auto;
   }
 
   .app-content {
     width: 100vw;
     margin-bottom: 50px;
   }
+
+  .main-body {
+    padding-bottom: 80px;
+  }
+
   .main-body h1 {
     margin-top: 45px;
     font-size: 1.5em;
@@ -34,5 +40,15 @@
   .app-white-grid {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr;
+  }
+
+  .hr-top {
+    max-width: 20vw !important;
+  }
+  .app-white-hr {
+    max-width: 100%;
+  }
+  .app-white hr {
+    max-width: 100%;
   }
 }

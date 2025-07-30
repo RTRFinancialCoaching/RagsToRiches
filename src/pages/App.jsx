@@ -5,6 +5,7 @@ import "../CSS/White.css";
 import "../CSS/Feeling.css";
 import "../CSS/Footer.css";
 import "../CSS/Mobile/AppMobile.css";
+import "../CSS/Mobile/HeaderMobile.css";
 import "../CSS/Mobile/LureMobile.css";
 import "../CSS/Mobile/ServicesMobile.css";
 import Header from "../components/Header.jsx";
