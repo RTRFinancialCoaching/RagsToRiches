@@ -1,0 +1,10 @@
+@media screen and (max-width: 450px) {
+  .nav-container {
+    display: none;
+  }
+  .logo-img > a {
+    width: 180px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+}

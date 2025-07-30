@@ -1,0 +1,10 @@
+@media screen and (max-width: 450px) {
+  .body-services h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .services-li a {
+    width: 50px;
+  }
+}

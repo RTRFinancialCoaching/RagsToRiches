@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import HeaderSpace from "./HeaderSpace";
+import "../CSS/Mobile/HeaderMobile.css";
 
 const Header = ({ pageNum = 0, sticky = false }) => {
   const [scrolled, setScrolled] = useState(false);

@@ -97,13 +97,13 @@ const WorkingMainBody = () => {
             <div className="working-list-row">
               <h3>Meeting #1:</h3>
               <div className="working-list-box">
-                <h2>Discovery Call</h2>
+                <h2>Addressing Your Concerns</h2>
                 <p>
-                  Addressing Your Concerns Everyone has a reason for seeking out
-                  financial coaching, and we will make sure these issues get
-                  solved before moving on to anything else. We will discuss the
-                  recommendations to make sure they are a good fit and follow up
-                  on the progress in future meetings.
+                  Everyone has a reason for seeking out financial coaching, and
+                  we will make sure these issues get solved before moving on to
+                  anything else. We will discuss the recommendations to make
+                  sure they are a good fit and follow up on the progress in
+                  future meetings.
                 </p>
               </div>
             </div>

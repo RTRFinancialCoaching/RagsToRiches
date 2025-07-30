@@ -1,0 +1,38 @@
+@media screen and (max-width: 450px) {
+  .body {
+    height: 4500px;
+  }
+
+  .app-content {
+    width: 100vw;
+    margin-bottom: 50px;
+  }
+  .main-body h1 {
+    margin-top: 45px;
+    font-size: 1.5em;
+  }
+  .main-body p {
+    margin-top: 5px;
+    font-size: 0.9em !important;
+  }
+
+  .app-white {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .app-white-space {
+    border: none;
+    min-height: 80%;
+    border-top: solid black 1px !important;
+  }
+
+  .app-white-hr h3 {
+    width: 240px;
+    word-spacing: 0;
+  }
+  .app-white-grid {
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+}
