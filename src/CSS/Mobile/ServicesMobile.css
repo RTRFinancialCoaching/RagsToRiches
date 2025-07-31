@@ -1,10 +1,66 @@
 @media screen and (max-width: 450px) {
+  .services-back {
+    box-shadow: none;
+  }
+
+  .body-services {
+    width: 100vw;
+    height: fit-content;
+  }
+
   .body-services h1 {
-    font-size: 2em;
+    font-size: 2.4em;
+    padding: 1vw;
+    padding-top: 10vw;
     text-align: center;
   }
 
+  .body-services p {
+    text-align: center;
+  }
+
+  .services-li {
+    margin: 20px 0;
+  }
   .services-li a {
-    width: 50px;
+    max-width: 80vw;
+  }
+
+  .services-container {
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .services-grid {
+    width: 100vw;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .services-main > ul {
+    padding: 0;
+  }
+
+  .services-contain h1 {
+    font-size: 2em;
+  }
+  .services-link-right h2 {
+    font-size: 1.2em;
+  }
+  .collapse .services-link-right {
+    padding: 0 4vw;
+  }
+  .services-link-right {
+    padding: 4vw;
+  }
+  .services-link {
+    max-width: 90vw;
+    max-height: 20vw;
+    min-height: fit-content;
+  }
+  .services-link-cir {
+    width: 20vw;
+    height: 20vw;
+  }
+  .services-link-content > p {
+    font-size: 0.9em;
   }
 }

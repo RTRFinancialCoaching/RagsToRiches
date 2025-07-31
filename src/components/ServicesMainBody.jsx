@@ -287,7 +287,7 @@ const ServicesMainBody = () => {
                 trying to sell you anything. I will organize all policies into
                 one document to easily assess coverage needs and gaps.
               </h4>
-              <h4>Health insurance</h4>
+              <h4>Health Insurance</h4>
               <ul className="services-ul">
                 <li>
                   <p>Open enrollment optimization</p>

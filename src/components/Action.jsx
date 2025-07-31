@@ -1,5 +1,3 @@
-import "../CSS/Action.css";
-
 import ActionMain from "./ActionMain";
 
 const Action = () => {

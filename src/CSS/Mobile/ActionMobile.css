@@ -1,0 +1,44 @@
+@media screen and (max-width: 450px) {
+  .action-body {
+    height: fit-content;
+    margin-top: 10vw;
+  }
+
+  .action-main h1 {
+    font-size: 2.7em;
+    margin: 0;
+  }
+  .action-main h3 {
+    padding: 15px;
+    font-size: 1.3em;
+    font-weight: 300;
+    width: 100%;
+  }
+
+  .action-main {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    height: fit-content;
+  }
+
+  .action-hr {
+    display: none;
+  }
+
+  .action-links .about-top-links {
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+
+  .action-links {
+    width: 100vw;
+  }
+
+  .action-main button {
+    width: 83%;
+    height: 30%;
+    padding: 3vw;
+    font-size: 1.5em;
+  }
+}

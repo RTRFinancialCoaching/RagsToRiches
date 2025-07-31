@@ -1,4 +1,3 @@
-import "../CSS/Services.css";
 import ServicesContainer from "./ServicesContainer";
 
 const Services = () => {
