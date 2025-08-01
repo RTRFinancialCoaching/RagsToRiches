@@ -207,7 +207,7 @@ const ServicesMainBody = () => {
               </h4>
               <ul className="services-ul">
                 <li>
-                  <p>Short-, Medium-, and long-term goal analysis</p>
+                  <p>Short-, medium-, and long-term goal analysis</p>
                 </li>
                 <li>
                   <p>Risk tolerance analysis</p>
@@ -305,7 +305,7 @@ const ServicesMainBody = () => {
                   <p>Medicare planning</p>
                 </li>
               </ul>
-              <h4>Life insurance</h4>
+              <h4>Life Insurance</h4>
               <ul className="services-ul">
                 <li>
                   <p>Conduct a life insurance needs analysis</p>
@@ -330,11 +330,11 @@ const ServicesMainBody = () => {
                   </p>
                 </li>
               </ul>
-              <h4>Disability insurance</h4>
+              <h4>Disability Insurance</h4>
               <ul className="services-ul">
                 <li>
                   <p>
-                    Short- and long-term policy reviews for adequacy, tax
+                    Review short- and long-term policies for adequacy and tax
                     efficiency
                   </p>
                 </li>
@@ -345,7 +345,7 @@ const ServicesMainBody = () => {
                   </p>
                 </li>
               </ul>
-              <h4>Long-Term Care insurance</h4>
+              <h4>Long-Term Care Insurance</h4>
               <ul className="services-ul">
                 <li>
                   <p>
@@ -361,7 +361,7 @@ const ServicesMainBody = () => {
                   </p>
                 </li>
               </ul>
-              <h4>Property & Casualty insurance (home, auto, and umbrella)</h4>
+              <h4>Property & Casualty Insurance (Home, Auto, and Umbrella)</h4>
               <ul className="services-ul">
                 <li>
                   <p>Review policies to:</p>
@@ -487,7 +487,7 @@ const ServicesMainBody = () => {
                   <p>Optimize retirement plan contributions</p>
                 </li>
                 <li>
-                  <p>Analyze Traditional versus Roth contributions*</p>
+                  <p>Analyze Traditional vs Roth retirement contributions*</p>
                 </li>
                 <li>
                   <p>
@@ -517,8 +517,8 @@ const ServicesMainBody = () => {
                 </li>
                 <li>
                   <p>
-                    List of group insurance benefits (life, disability,
-                    accidental death and dismemberment, etc.) available
+                    Create list of available group insurance benefits (life,
+                    disability, accidental death and dismemberment, etc.)
                   </p>
                 </li>
                 <li>
