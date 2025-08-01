@@ -1,4 +1,11 @@
 @media screen and (max-width: 450px) {
+  .header-div {
+    align-items: center;
+    justify-content: space-around;
+  }
+  .title {
+    height: 100%;
+  }
   .nav-container {
     display: none;
   }
@@ -6,5 +13,68 @@
     width: 180px;
     margin-left: 10px;
     margin-bottom: 20px;
+  }
+  .header-list {
+    z-index: 100;
+    display: block;
+    width: 15vw;
+    height: 15vw;
+  }
+  .header-sticky .header-list-back {
+    filter: invert(0%);
+  }
+  .header-sticky {
+    overflow: visible;
+  }
+  .header-list-back {
+    width: 100%;
+    height: 100%;
+    filter: invert(100%);
+    background-image: url(/icons/list-lines.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+  }
+  .header-list-ul {
+    z-index: 150;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: rgb(93 42 26);
+    box-shadow: #0000009d -1px -1px 3px;
+    position: fixed;
+    padding: 8vw;
+    height: 100vh;
+    width: 95vw;
+    top: 0;
+    right: 0;
+    transition: all 1s;
+  }
+  .header-list-ul li {
+    min-width: 90vw;
+    margin-bottom: 6vw;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 1vw;
+  }
+  .header-cross {
+    filter: invert(100%);
+    position: fixed;
+    top: 4vw;
+    right: 4vw;
+    height: 11vw;
+    width: 11vw;
+  }
+  .header-list-ul li a {
+    width: 100%;
+    height: 100%;
+  }
+  .header-drop {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    transition: none;
   }
 }

@@ -1,6 +1,5 @@
 import Header from "../components/Header";
 import ActionMain from "../components/ActionMain";
-import "../CSS/Contact.css";
 
 const Contact = () => {
   return (

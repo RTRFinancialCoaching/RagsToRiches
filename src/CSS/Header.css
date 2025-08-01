@@ -47,6 +47,9 @@
   filter: drop-shadow(#000000 3px 0 4px);
   z-index: 100;
 }
+.header-list {
+  display: none;
+}
 
 .header-sticky span {
   font-family: "Axis", sans-serif;
@@ -111,7 +114,6 @@
   height: 90%;
   transform: scale(1.3);
   background-image: url(/Logo-Boy.svg);
-  background-color: rgb(255, 255, 255);
   transition: 0.5s;
 }
 .logo-img > a:hover {

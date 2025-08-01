@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import HeaderSpace from "./HeaderSpace";
+import HeaderList from "./HeaderList";
 
 const Header = ({ pageNum = 0, sticky = false }) => {
   const [scrolled, setScrolled] = useState(false);
@@ -41,7 +42,6 @@ const Header = ({ pageNum = 0, sticky = false }) => {
   const selectedFunc = () => {
     const headerSpaces = document.getElementById("HeaderSpaces" + sticky);
     const page = headerSpaces.children.item(pageNum);
-    console.log(page);
     page.classList.add("page-selected");
   };
 
@@ -80,6 +80,7 @@ const Header = ({ pageNum = 0, sticky = false }) => {
           />
         </ul>
       </div>
+      <HeaderList />
     </div>
   );
 };

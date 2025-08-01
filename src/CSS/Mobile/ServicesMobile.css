@@ -1,5 +1,6 @@
 @media screen and (max-width: 450px) {
-  .services-back {
+  .services-back,
+  .services-page-back {
     box-shadow: none;
   }
 
@@ -42,19 +43,48 @@
   .services-contain h1 {
     font-size: 2em;
   }
+  .services-link-left {
+    width: 100%;
+    border-top-left-radius: 5vw;
+    border-top-right-radius: 5vw;
+    transition: none;
+  }
+  .collapse .services-link-left {
+    border-radius: 0;
+    border-top-left-radius: 5vw;
+    border-bottom-left-radius: 5vw;
+  }
   .services-link-right h2 {
     font-size: 1.2em;
+  }
+  .collapse {
+    margin-bottom: 3vw;
   }
   .collapse .services-link-right {
     padding: 0 4vw;
   }
   .services-link-right {
+    box-sizing: border-box;
     padding: 4vw;
+    border-radius: 0;
+    border-bottom-left-radius: 5vw;
+    border-bottom-right-radius: 5vw;
+    max-width: 100%;
+  }
+  .collapse .services-link-right {
+    border-radius: 0;
+    border-top-right-radius: 5vw;
+    border-bottom-right-radius: 5vw;
   }
   .services-link {
     max-width: 90vw;
     max-height: 20vw;
     min-height: fit-content;
+    flex-direction: column;
+    margin-bottom: 3vw;
+  }
+  .services-link.collapse {
+    flex-direction: row;
   }
   .services-link-cir {
     width: 20vw;

@@ -1,0 +1,11 @@
+@media screen and (max-width: 450px) {
+  .contact-hr-div {
+    margin-bottom: 10vw;
+  }
+  .contact-back {
+    box-shadow: none;
+  }
+  .action-main {
+    padding: 5vw 0;
+  }
+}
