@@ -104,13 +104,12 @@
 
 .logo-img > a {
   margin-left: 50px;
-  margin-bottom: 10px;
   background-repeat: no-repeat;
   background-position: left center;
   background-size: contain;
   float: left;
   display: block;
-  width: 240px;
+  width: 290px;
   height: 90%;
   transform: scale(1.3);
   background-image: url(/Logo-Boy.svg);
@@ -119,6 +118,12 @@
 .logo-img > a:hover {
   shape-rendering: crispEdges;
   background-image: url(/Logo-King.svg);
+}
+.header-sticky .logo-img > a {
+  background-image: url(/Logo-Boy-Black.svg);
+}
+.header-sticky .logo-img > a:hover {
+  background-image: url(/Logo-King-Black.svg);
 }
 
 .page-selected {

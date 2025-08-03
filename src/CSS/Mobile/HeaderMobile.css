@@ -10,9 +10,12 @@
     display: none;
   }
   .logo-img > a {
-    width: 180px;
-    margin-left: 10px;
-    margin-bottom: 20px;
+    width: 200px;
+    margin-left: 2vw;
+    margin-bottom: 5px;
+  }
+  .header-sticky .logo-img > a {
+    margin-left: 5vw;
   }
   .header-list {
     z-index: 100;
