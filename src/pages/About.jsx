@@ -1,5 +1,3 @@
-import "../CSS/About.css";
-
 import Header from "../components/Header";
 import Action from "../components/Action";
 import AboutMainBody from "../components/AboutMainBody";

@@ -1,0 +1,33 @@
+@media screen and (max-width: 450px) {
+  .about-main {
+    width: 100vw;
+  }
+  .about-main-top {
+    width: 100%;
+    height: fit-content;
+  }
+  .about-top-title {
+    margin: 3vw;
+  }
+  .about-main-top > img {
+    display: none;
+  }
+  .about-main-top h1 {
+    font-size: 2em;
+    max-width: 90vw;
+    margin-bottom: 2vw;
+  }
+  .about-top-links {
+    flex-wrap: wrap;
+  }
+  .about-prof-main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-prof-list {
+    width: 80%;
+  }
+  .about-prof p {
+    padding-left: 2vw;
+  }
+}

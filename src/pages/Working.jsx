@@ -1,7 +1,6 @@
 import Action from "../components/Action";
 import Header from "../components/Header";
 import WorkingMainBody from "../components/WorkingMainBody";
-import "../CSS/Working.css";
 
 const Working = () => {
   return (
